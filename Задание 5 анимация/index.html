@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Don't do it</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="#">
+            <img src="images/photo/logo.jpg" alt="Don't do it">
+        </a>
+        <nav class="menu">
+            <a href="#" class="menu_item">Что будет на курсе?</a>
+            <a href="#" class="menu_item">Вопросы</a>
+            <a href="#" class="menu_item">Автор</a>
+            <a href="#" class="button">Записаться на курс</a>
+        </nav>
+    </header>
+
+    <section class="section_title">
+        <div class="title">
+            <h1>Не <span class="colortext">делай</span> это</h1>
+            <p class="text_title">
+                Онлайн-курс для творческих людей, о том, как управлять своим временем 
+            </p>
+            <a href="#" class="button_two">Записаться на курс</a>
+        </div>
+        <img class="relax" src="images/photo/Done.png" alt="relax">
+    </section>
+
+    <section class="options">
+        <div class="grid">
+            <div class="item_grid_one">
+                <img class="icon" src="images/icons/Group.png" alt="watch">
+                <p class="text">Для тех, у кого слишком много <br> идей и слишком мало времени</p>
+            </div>
+            <div class="item_grid_two">
+                <img class="icon" src="images/icons/notepad.png" alt="notepad">
+                <p class="text">Метод «списка не дел», который позволит успевать и реализовывать</p>
+            </div>
+            <div class="item_grid_three">
+                <img class="icon" src="images/icons/target.png" alt="target">
+                <p class="text">Курс научит творческих людей сосредоточиваться</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="quote">
+        <div class="time">
+            <img class="image_time" src="images/photo/Finances.png" alt="Finances">
+            <div class="wraper_time">
+                <h2 class="title_time">Ты не успеешь</h2>
+                <p class="text_time">
+                Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей. Как прибавить суткам часы, рассмотрим в нашем курсе.
+                </p>
+            </div>
+        </div>
+        <div class="deadline">
+            <div class="wraper_deadline">
+                <h2 class="title_deadline">Опять дедлайн</h2>
+                <p class="text_deadline">
+                В мире, где столько всего интересного, когда же успевать жить?
+                </p>
+            </div>
+            <img class="image_deadline" src="images/photo/deadline.png" alt="Deadline">
+        </div>
+    </section>
+
+    <section class="skill">
+        <h2 class="skill_title">На курсе ты <span class="colortext">сможешь</span></h2>
+        <div class="block">
+            <div class="skill_block">
+                <img class="gesture" src="images/icons/finger_one.png" alt="finger_one">
+                <p class="skill_text">Понять, что нужно делать, а что делать не стоит.</p>
+            </div>
+            <div class="skill_block">
+                <img class="gesture" src="images/icons/fingers_two.png" alt="fingers_two">
+                <p class="skill_text">Перестать себя искусственно ограничивать.</p>
+            </div>
+            <div class="skill_block">
+                <img class="gesture" src="images/icons/fingers_thre.png" alt="fingers_thre">
+                <p class="skill_text">Определить сильные стороны и начать использовать слабые.</p>
+            </div>
+            <div class="skill_block">
+                <img class="gesture" src="images/icons/fingers_four.png" alt="fingers_four">
+                <p class="skill_text">Научиться достигать любой цели <br> в 3 понятных шага.</p>
+            </div>
+            <div class="skill_block">
+                <img class="gesture" src="images/icons/fingers_five.png" alt="fingers_five">
+                <p class="skill_text">Сотрудничать эффективно и с правильными людьми.</p>
+            </div>
+            <div class="skill_block">
+                <img class="gesture" src="images/icons/fingers_six.png" alt="fingers_six">
+                <p class="skill_text_block">Оптимизировать общение с клиентами и проведение совещаний.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe_background">
+        <h2 class="subscribe_title">Единственное, что <br> нужно <span class="colortext">сделать</span></h2>
+        <div class="subscribe">
+            <form class="form" action="php/handler.php" method="GET">
+                <input class="input_name" type="text" name="name" placeholder="Ваше имя">
+                <input class="input_email" type="text" name="email" placeholder="Email">
+                <select class="select" name="activity">
+                    <option value="" disabled>Деятельность</option>
+                    <option class="option" value="programmer">Програмист</option>
+                    <option class="option" value="designer">Дизайнер</option>
+                    <option class="option" value="marketer">Маркетолог</option>
+                </select>
+                <button class="button_form" type="submit">Записаться на курс</button>
+            </form>
+            <form class="form" action="php/handler.php" method="GET">
+                <input class="input_checkbox" name="assent" checked="checked">
+                <span class="text_checkbox">Согласен получать информационные материалы о старте курса</span>
+            </form>
+        </div>
+    </section>
+    <section class="autor">
+        <div class="autor_info">
+            <img class="autor_photo" src="images/photo/autor.jpg" alr="autor">
+            <h3 class="autor_title">Дональд Рос</h3>
+            <p class="autor_position">
+                Типограф, творческий предприниматель и лектор Королевской академии искусств Нидерландов
+            </p>
+            <p class="autor_text">
+                Создаю титры к фильмам, шрифты, сложные интерфейсы для смартфонов. Автор 
+                собственных креативных проектов, в том числе системы тайм-менеджмента и 
+                приложения для смартфонов ToDon’tList.
+            </p>
+            <div class="contacts">
+                <img class="contact_icon" src="images/icons/instagram.png" alt="Instagram">
+                <img class="contact_icon" src="images/icons/Facebook.png" alt="Facebook">
+                <img class="contact_icon" src="images/icons/Pinterest.png" alt="Pinterest">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="logo_footer"> Don't <span class="colortext">do</span> it</p>
+    </footer>
+    
+    <script src="js/app.js"></script>
+</body>
+    </html>
